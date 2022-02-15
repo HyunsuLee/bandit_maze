@@ -2,9 +2,9 @@ import numpy as np
 from tqdm import tqdm
 import copy
 
-from lib.env import BanditMaze
-from lib.agents import Q_agent
-from lib.utils import my_argmax
+from env import BanditMaze
+from agents import Q_agent
+from utils import my_argmax
 
 
 def QL(episodes=50, alpha=0.1):
